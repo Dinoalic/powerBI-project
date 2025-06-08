@@ -1,0 +1,21 @@
+steps to generate database data
+1.run take1000rows.py
+2.run enrich.py
+3.run initial.py
+
+
+steps to archive
+1.run archive.py
+
+
+
+steps to generate star schema
+1.run generatestar.py
+
+steps to incremental load
+1.run incremental.py
+
+
+aditional steps:
+enrich_incremental.py and enrich.py  are used to generate initial datasets
+
